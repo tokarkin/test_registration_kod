@@ -1,0 +1,24 @@
+.containerUsers {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+.showMoreBtn{
+  width: 100%;
+  padding-top: 20px;
+}
+.btn{
+  width: 150px;
+  height: 30px;
+  background: #ef5b4c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.wrappers{
+  width:33%;
+  textAlign:center;
+}
+

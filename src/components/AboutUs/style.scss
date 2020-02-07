@@ -1,0 +1,168 @@
+h2{
+  margin: 0;
+}
+.containerAbout {
+  background-image: url('../../images/banner-photo.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+display: flex;
+  align-items: center;
+  &__wrap{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 20px;
+
+  }
+}
+.heading{
+  font-size: 50px;
+  font-style: revert;
+  line-height: 54px;
+  color: white;
+}
+.text{
+  color: white;
+  font-family: SansSerif;
+  font-style: initial;
+  font-size: 24px;
+  line-height: 24px;
+}
+.headBtn{
+  width: 20%;
+  background: #ef5b4c;
+  color: white;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+}
+.acquinted{
+  height: 500px;
+
+  &__header{
+    font-size: 40px;
+    text-align: center;
+
+  }
+  &__block{
+    display: flex;
+    margin-top: 45px ;
+    &__img{
+
+      width: 100%;
+      background-image: url("../../../src/images/man-laptop-v1.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+
+    }
+    &__wrapper{
+      padding: 0px 20px 0px 20px;
+
+      &__head{
+        font-size: 24px;
+        margin: 10px 0px 25px 0px ;
+      }
+      &__first{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 20px 0px 20px 0px;
+      }
+      &__btn{
+        background: none;
+        border: none;
+        color: #ef5b4c;
+      }
+    }
+
+  }
+}
+.neugadal{
+  display: flex;
+  align-items: center;
+  
+}
+
+
+
+
+@media screen and (max-width: 600px){
+  .containerAbout {
+    background-image: url('../../images/banner-photo.jpg');
+    background-size: contain;
+    background-size: cover;
+
+    height: 400px;
+    &__wrap{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      padding: 20px;
+      text-align: center;
+
+    }
+  }
+  .heading{
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .text{
+    height: 70px;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .headBtn{
+    width: 50%;
+  }
+  .acquinted{
+    height:auto;
+    &__header{
+      padding-top: 70px;
+      font-size: 35px;
+      text-align: center;
+
+    }
+    &__block{
+      display: flex;
+      flex-direction: column;
+      margin-top: 45px ;
+      align-items: center;
+      &__img{
+        width: 340px;
+        height: 340px;
+        background-image: url("../../../src/images/man-laptop-v1.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+      }
+      &__wrapper{
+        padding: 0px 20px 0px 20px;
+        text-align: center;
+
+        &__head{
+          text-align: center;
+        }
+        &__btn{
+          font-size: 16px;
+        }
+      }
+
+    }
+  }
+  .secondBlock{
+    display: inline;
+    align-items: center;
+
+  }
+  .users{
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+}
+
